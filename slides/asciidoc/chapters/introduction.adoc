@@ -1,0 +1,30 @@
+=== Petite Présentation
+
+=== Installation 
+
+- Utilisation d'une CLI pour bootstraper le projet 
+- https://docs.nestjs.com/cli/usages
+
+[source,shell]
+----
+npm i -g @vue/cli
+vue create project-name
+
+npm run start:dev
+npm run start:debug
+npm run test
+----
+
+- Propose des _schematics_ pour générer de nouveaux fichiers
+
+[source,shell]
+----
+nest generate controller users
+nest generate provider users
+----
+
+=== Installation 
+
+screencast:nestjs[]
+
+=== Quelle est la porte d'entrée ?
